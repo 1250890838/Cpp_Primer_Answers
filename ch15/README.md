@@ -115,12 +115,12 @@ derived dobj; 	base *bp2 = &dobj; 	base &br2 = dobj;
 (d)bp2->name();		(e)br1.print();		(f)br2.print();
 ```
 
-* (a) 编译时。
-* (b) 编译时。
-* (c) 编译时。
-* (d) 编译时。
-* (e) 运行时。base::print()
-* (f) 运行时。derived::print()
+* (a) base::print()
+* (b) derived::print()
+* (c) base::print()
+* (d) base::print()
+* (e) base::print()
+* (f) derived::print()
 
 ## 练习15.15
 
